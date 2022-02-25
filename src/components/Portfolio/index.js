@@ -31,4 +31,33 @@ function ProjectCard(props) {
     )
 }
 
-//export default Projects;
+function Wrapper(props) {
+    return <div className="wrapper">{props.children}</div>;
+}
+
+function Portfolio() {
+    return (
+        <section>
+            <div className="project">
+                <h2>Projects</h2>
+                <hr></hr>
+            </div>
+
+            <Wrapper>
+                {projects.map((portfolio) => (
+                    <ProjectCard
+                        key={portfolio.id}
+                        name={portfolio.name}
+                        image={portfolio.image}
+                        github={portfolio.github}
+                        deploy={portfolio.deploy}
+                        description={portfolio.description}
+                        languages={portfolio.languages}
+                    />
+                ))}
+            </Wrapper>
+        </section>
+    );
+}
+
+export default Portfolio;
