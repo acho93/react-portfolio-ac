@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navigation (props) {
+function Navigation(props) {
     
 }
 
