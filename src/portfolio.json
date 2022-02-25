@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Fwitter",
+        "image": "https://github.com/acho93/Fwitter/raw/main/public/images/front-page.png",
+        "github": "https://github.com/acho93/Fwitter",
+        "deploy": "https://quiet-basin-49239.herokuapp.com/",
+        "description": "A social media application that allows users to post unfiltered thoughts on a public forum",
+        "languages": "Node | Express | MySQL | JavaScript | HTML | CSS"
+    },
+    {
+        "id": 2,
+        "name": "Travel Hub",
+        "image": "https://user-images.githubusercontent.com/90042533/140604150-6bde5632-e4d1-4d01-87b5-030c937932be.png",
+        "github": "https://github.com/Connor-vb/Travel-Hub",
+        "deploy": "https://connor-vb.github.io/Travel-Hub/",
+        "description": "A search engine that allows users to search flights for travel",
+        "languages": "JavaScript | HTML | CSS"
+    },
+    {
+        "id": 3,
+        "name": "Money Tracker",
+        "image": "https://user-images.githubusercontent.com/89879289/153758027-edf915ce-cf1d-4104-8368-e17dd3e441c0.png",
+        "github": "https://github.com/acho93/Money-Tracker",
+        "deploy": "http://morning-reef-46715.herokuapp.com/",
+        "description": "A budget tracker with offline access that allows users to log deposits and expenses",
+        "languages": "Express | MongoDB | JavaScript | HTML | CSS"
+    },
+    {
+        "id": 4,
+        "name": "Note Taker",
+        "image": "https://github.com/acho93/Note-Taker/raw/main/public/assets/images/NoteTaker.png",
+        "github": "https://github.com/acho93/Note-Taker",
+        "deploy": "https://fast-bayou-40029.herokuapp.com/",
+        "description": "A note taking application that allows users to write, save, and delete notes",
+        "languages": "Express | JavaScript | HTML | CSS"
+    },
+    {
+        "id": 5,
+        "name": "Work Day Scheduler",
+        "image": "https://github.com/acho93/Calendar/raw/main/assets/images/Calendar.png",
+        "github": "https://github.com/acho93/Calendar",
+        "deploy": "https://acho93.github.io/Calendar/",
+        "description": "A calendar application that allows users to create daily schedules",
+        "languages": "JavaScript | HTML | CSS"
+    },
+    {
+        "id": 6,
+        "name": "Password Generator",
+        "image": "https://user-images.githubusercontent.com/89879289/146251660-500c628e-0191-4002-b25e-5173960e325c.png",
+        "github": "https://github.com/acho93/Password-Generator",
+        "deploy": "https://acho93.github.io/Password-Generator/",
+        "description": "An application that generates a random password based on user preferences",
+        "languages": "JavaScript | HTML | CSS"
+    }
+]
