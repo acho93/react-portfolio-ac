@@ -1,14 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-html,
+/* html,
 body {
   min-height: 100%;
 }
@@ -251,4 +251,4 @@ a {
 
 .navActive {
   color: var(--secondary);
-}
+} */
