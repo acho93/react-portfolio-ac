@@ -9,7 +9,7 @@ function Navigation(props) {
                     <p>SOMETHING IN LEFT CORNER. MAYBE ICON?</p>
                 </div>
             </NavLink>
-            
+
             <ul className="nav">
                 <li className="nav-tab">
                     <NavLink to="/about">
