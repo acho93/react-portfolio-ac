@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../Layout';
 import projects from '../../portfolio.json'
-// import '../../index.css'
 
 function ProjectCard(props) {
     return (
