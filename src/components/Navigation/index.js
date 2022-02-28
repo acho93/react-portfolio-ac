@@ -10,16 +10,16 @@ import {
     MenuButton,
     MenuList,
     MenuItem,
-    MenuDivider,
     useDisclosure,
     useColorModeValue,
     Stack,
   } from '@chakra-ui/react';
   import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+  import AshleyPic from '../../assets/images/ashley-photo.jpg'
   
-  const Links = ['Dashboard', 'Projects', 'Team'];
+  const Links = ['About', 'Portfolio', 'Resume', 'Contact'];
   
-  const NavLink = ({ children }) => (
+  const NavLink = ({ children, src }) => (
     <Link
       px={2}
       py={1}
@@ -28,7 +28,7 @@ import {
         textDecoration: 'none',
         bg: useColorModeValue('gray.200', 'gray.700'),
       }}
-      href={'#'}>
+      href={src}>
       {children}
     </Link>
   );
@@ -47,18 +47,9 @@ import {
               display={{ md: 'none' }}
               onClick={isOpen ? onClose : onOpen}
             />
-            <HStack spacing={8} alignItems={'center'}>
-              <Box>Logo</Box>
-              <HStack
-                as={'nav'}
-                spacing={4}
-                display={{ base: 'none', md: 'flex' }}>
-                {Links.map((link) => (
-                  <NavLink key={link}>{link}</NavLink>
-                ))}
-              </HStack>
-            </HStack>
-            <Flex alignItems={'center'}>
+            <HStack spacing={1} justify={{base: 'center', md: 'space-between'}}alignItems={'center'}>
+              
+              <Flex alignItems={'center'}>
               <Menu>
                 <MenuButton
                   as={Button}
@@ -69,17 +60,29 @@ import {
                   <Avatar
                     size={'sm'}
                     src={
-                      'https://images.unsplash.com/photo-1493666438817-866a91353ca9?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=b616b2c5b373a80ffc9636ba24f7a4a9'
+                      AshleyPic
                     }
                   />
                 </MenuButton>
                 <MenuList>
-                  <MenuItem>Link 1</MenuItem>
-                  <MenuItem>Link 2</MenuItem>
-                  <MenuItem>Link 3</MenuItem>
+                  <MenuItem>About</MenuItem>
+                  <MenuItem>Portfolio</MenuItem>
+                  <MenuItem>Resume</MenuItem>
+                  <MenuItem>Contact</MenuItem>
                 </MenuList>
               </Menu>
             </Flex>
+
+              <HStack
+                as={'nav'}
+                spacing={4}
+                display={{ base: 'none', md: 'flex' }}>
+                {Links.map((link) => (
+                  <NavLink key={link} src={`/${link.toLocaleLowerCase()}`}>{link}</NavLink>
+                ))}
+              </HStack>
+            </HStack>
+
           </Flex>
   
           {isOpen ? (
@@ -92,32 +95,6 @@ import {
             </Box>
           ) : null}
         </Box>
-  
-        <Box p={4}>Main Content Here</Box>
       </>
     );
   }
-
-
-  // <ul className="nav">
-  //               <li className="nav-tab">
-  //                   <NavLink to="/about">
-  //                       <p>ABOUT</p>
-  //                   </NavLink>
-  //               </li>
-  //               <li className="nav-tab">
-  //                   <NavLink to="/portfolio">
-  //                       <p>PORTFOLIO</p>
-  //                   </NavLink>
-  //               </li>
-  //               <li className="nav-tab">
-  //                   <NavLink to="/contact">
-  //                       <p>CONTACT</p>
-  //                   </NavLink>
-  //               </li>
-  //               <li className="nav-tab">
-  //                   <NavLink to="/resume">
-  //                       <p>RESUME</p>
-  //                   </NavLink>
-  //               </li>
-  //           </ul>
