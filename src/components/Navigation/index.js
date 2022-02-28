@@ -1,15 +1,12 @@
 import {
     Box,
+    Button,
     Flex,
     Avatar,
     HStack,
     Link,
     IconButton,
-    Button,
     Menu,
-    MenuButton,
-    MenuList,
-    MenuItem,
     useDisclosure,
     useColorModeValue,
     Stack,
@@ -51,8 +48,9 @@ import {
               
               <Flex alignItems={'center'}>
               <Menu>
-                <MenuButton
-                  as={Button}
+                <Button
+                  as={Link}
+                  href="/about"
                   rounded={'full'}
                   variant={'link'}
                   cursor={'pointer'}
@@ -63,13 +61,7 @@ import {
                       AshleyPic
                     }
                   />
-                </MenuButton>
-                <MenuList>
-                  <MenuItem>About</MenuItem>
-                  <MenuItem>Portfolio</MenuItem>
-                  <MenuItem>Resume</MenuItem>
-                  <MenuItem>Contact</MenuItem>
-                </MenuList>
+                </Button>
               </Menu>
             </Flex>
 
