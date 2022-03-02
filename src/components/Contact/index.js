@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+//import { validateEmail } from '../../utils/helpers';
 
 import {
   FormControl,
@@ -8,7 +8,8 @@ import {
   Textarea,
   Box,
   Button,
-  Center
+  Center,
+  Heading
 } from '@chakra-ui/react';
 
 import Layout from '../Layout';
@@ -51,8 +52,8 @@ function ContactForm() {
   return (
     <Layout>
       <section>
-        <h1 data-testid="h1tag">Contact me</h1>
-        <Center>
+        <Heading m={5}>Contact me</Heading>
+        <Center m={3}>
         <Box borderRadius={10} borderWidth={1} p={3} w="80%" mb={10}>
           <form id="contact-form" onSubmit={handleSubmit}>
             <FormControl>

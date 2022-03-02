@@ -2,28 +2,6 @@ import React from 'react';
 
 import Layout from '../Layout';
 
-// function About() {
-//     return (
-//         <Layout>
-//             <section>
-//                 <h2 id="about">Ashley Cho</h2>
-//                 <hr></hr>
-
-//                 <div>
-//                     <p>ADD IMAGE HERE</p>
-
-//                     <p>
-//                         Add a description of Ashley here!
-//                     </p>
-//                 </div>
-//             </section>
-//         </Layout>
-//     )
-// }
-
-// export default About;
-
-
 import {
     Container,
     SimpleGrid,
@@ -36,36 +14,8 @@ import {
     Icon,
     useColorModeValue,
   } from '@chakra-ui/react';
-  import {
-    IoAnalyticsSharp,
-    IoLogoBitcoin,
-    IoSearchSharp,
-  } from 'react-icons/io5';
-  import { ReactElement } from 'react';
+  
   import AshleyPic from '../../assets/images/ashley-pic.jpg';
-  
-//   interface FeatureProps {
-//     text: string;
-//     iconBg: string;
-//     icon?: ReactElement;
-//   }
-  
-  const Feature = ({ text, icon, iconBg }) => {
-    return (
-      <Stack direction={'row'} align={'center'}>
-        <Flex
-          w={8}
-          h={8}
-          align={'center'}
-          justify={'center'}
-          rounded={'full'}
-          bg={iconBg}>
-          {icon}
-        </Flex>
-        <Text fontWeight={600}>{text}</Text>
-      </Stack>
-    );
-  };
   
   export default function About() {
     return (
@@ -84,38 +34,16 @@ import {
               rounded={'md'}>
               About Me
             </Text>
-            <Heading>Welcome to my page!</Heading>
+            <Heading>Ashley Cho</Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore
+              Originally from New York City, I'm a recent transplant to the Bay Area. 
+              I used to work as a school speech-language pathologist working with students between K-12. 
+              After moving to San Francisco, I wanted to explore the tech industry and learn a new skill, which is why I enrolled in a coding bootcamp where I learned a lot!
             </Text>
-            {/* <Stack
-              spacing={4}
-              divider={
-                <StackDivider
-                  borderColor={useColorModeValue('gray.100', 'gray.700')}
-                />
-              }>
-              <Feature
-                icon={
-                  <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                text={'Business Planning'}
-              />
-              <Feature
-                icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
-                iconBg={useColorModeValue('green.100', 'green.900')}
-                text={'Financial Planning'}
-              />
-              <Feature
-                icon={
-                  <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('purple.100', 'purple.900')}
-                text={'Market Analysis'}
-              />
-            </Stack> */}
+            <Text color={'gray.500'} fontSize={'lg'}>
+              In my free time, I like to explore restaurants and parks in my new neighborgood, as well as venture out farther in the Bay Area with weekend trips to Napa and outdoor hikes.
+              I do all of these activities with my best friend, Flynn, who is the little dog in my picture, and my pet ogre, Kevin (not pictured).
+            </Text>
           </Stack>
           <Flex>
             <Image

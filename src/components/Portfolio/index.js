@@ -131,10 +131,10 @@ function Portfolio() {
     return (
         <Layout>
             <section>
-                <div>
-                    <h2>Projects</h2>
-                    <hr></hr>
-                </div>
+                <Heading m={5}>
+                    Portfolio
+                </Heading>
+                <hr></hr>
 
                 <Wrapper>
                     <SimpleGrid columns={2} spacing={10}>
