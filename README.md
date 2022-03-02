@@ -5,6 +5,8 @@ Using React and the Chakra UI library for styling, I created a portfolio where I
 
 Here is a link to the deployed application: https://acho93.github.io/react-portfolio-ac/
 
+![Uploading Screen Shot 2022-03-02 at 2.04.17 PM.png…]()
+
 ## Installation
 After cloning the repository from GitHub, install the necessary dependencies using 'npm i'. To run the application on your local browser, run 'npm start'. 
 
