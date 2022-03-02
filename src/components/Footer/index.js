@@ -19,7 +19,7 @@ const SocialButton = ({
 }) => {
     return (
         <chakra.button
-            bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+            bg={useColorModeValue('blackAlpha.100p', 'whiteAlpha.100')}
             rounded={'full'}
             w={8}
             h={8}
@@ -45,7 +45,7 @@ const SocialButton = ({
 export default function Footer() {
     return (
         <Box
-            bg={useColorModeValue('gray.50', 'gray.900')}
+            bg={useColorModeValue('pink', 'gray.900')}
             color={useColorModeValue('gray.700', 'gray.200')}>
             <Container
                 as={Stack}

@@ -10,8 +10,6 @@ import {
     Heading,
     Text,
     Stack,
-    StackDivider,
-    Icon,
     useColorModeValue,
   } from '@chakra-ui/react';
   
@@ -25,10 +23,10 @@ import {
           <Stack spacing={4}>
             <Text
               textTransform={'uppercase'}
-              color={'blue.400'}
+              color={'gray.800'}
               fontWeight={600}
               fontSize={'sm'}
-              bg={useColorModeValue('blue.50', 'blue.900')}
+              bg={useColorModeValue('pink', 'gray.800')}
               p={2}
               alignSelf={'flex-start'}
               rounded={'md'}>
@@ -41,7 +39,7 @@ import {
               After moving to San Francisco, I wanted to explore the tech industry and learn a new skill, which is why I enrolled in a coding bootcamp where I learned a lot!
             </Text>
             <Text color={'gray.500'} fontSize={'lg'}>
-              In my free time, I like to explore restaurants and parks in my new neighborgood, as well as venture out farther in the Bay Area with weekend trips to Napa and outdoor hikes.
+              In my free time, I like to read, complete the workout rings on my Apple Watch, and explore restaurants and parks in my new neighborgood, as well as venture out farther in the Bay Area with weekend trips to Napa and outdoor hikes.
               I do all of these activities with my best friend, Flynn, who is the little dog in my picture, and my pet ogre, Kevin (not pictured).
             </Text>
           </Stack>

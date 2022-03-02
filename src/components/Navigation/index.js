@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
 import AshleyPic from '../../assets/images/ashley-photo.jpg';
 
-const Links = ['About', 'Portfolio', 'Resume', 'Contact'];
+const Links = ['About', 'Portfolio', 'Skills', 'Contact'];
 
 const NavLink = ({ children, src }) => (
   <Link
@@ -32,7 +32,7 @@ export default function Navigation() {
 
   return (
     <>
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+      <Box bg={useColorModeValue('pink', 'gray.900')} px={4}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <Button
             as={Link}

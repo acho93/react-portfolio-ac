@@ -55,9 +55,9 @@ function ProjectCard(props) {
             <Box
                 role={'group'}
                 p={6}
-                maxW={'330px'}
+                maxW={'340px'}
                 w={'full'}
-                bg={useColorModeValue('white', 'gray.800')}
+                bg={useColorModeValue('pink', 'gray.800')}
                 boxShadow={'2xl'}
                 rounded={'lg'}
                 pos={'relative'}
@@ -94,7 +94,7 @@ function ProjectCard(props) {
                     />
                 </Box>
                 <Stack direction={'column'} pt={10} align={'center'}>
-                    <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
+                    <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={'semibold'}>
                         {props.name}
                     </Heading>
                     <Stack direction={'column'} align={'center'}>

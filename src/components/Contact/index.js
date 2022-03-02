@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 //import { validateEmail } from '../../utils/helpers';
 
 import {
@@ -9,7 +9,8 @@ import {
   Box,
   Button,
   Center,
-  Heading
+  Heading,
+  useColorModeValue
 } from '@chakra-ui/react';
 
 import Layout from '../Layout';
@@ -71,7 +72,7 @@ function ContactForm() {
               <Textarea placeholder='Type your message here...' />
             </FormControl>
 
-            <Button type="submit" >Submit</Button>
+            <Button type="submit" bg={useColorModeValue('pink', 'gray.800')}>Submit</Button>
           </form>
 
         </Box>
