@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio-ac/static/css/main.74cf0fb9.css",
-    "main.js": "/react-portfolio-ac/static/js/main.74744532.js",
-    "static/js/787.392051ef.chunk.js": "/react-portfolio-ac/static/js/787.392051ef.chunk.js",
-    "static/media/ashley-pic.jpg": "/react-portfolio-ac/static/media/ashley-pic.ca4b7b2d91304172f336.jpg",
-    "static/media/ChoResume.pdf": "/react-portfolio-ac/static/media/ChoResume.f3c7e2627ec2062becd0.pdf",
-    "static/media/ashley-photo.jpg": "/react-portfolio-ac/static/media/ashley-photo.d2ba98098c6b684e694c.jpg",
-    "static/media/aileron-latin-400-normal.woff": "/react-portfolio-ac/static/media/aileron-latin-400-normal.36ddf8acddc786506154.woff",
-    "static/media/aileron-latin-400-normal.woff2": "/react-portfolio-ac/static/media/aileron-latin-400-normal.a0168083f435b75f0e4a.woff2",
-    "index.html": "/react-portfolio-ac/index.html",
-    "main.74cf0fb9.css.map": "/react-portfolio-ac/static/css/main.74cf0fb9.css.map",
-    "main.74744532.js.map": "/react-portfolio-ac/static/js/main.74744532.js.map",
-    "787.392051ef.chunk.js.map": "/react-portfolio-ac/static/js/787.392051ef.chunk.js.map"
+    "main.css": "//acho93.github.io/react-portfolio-ac/static/css/main.9abdef1e.css",
+    "main.js": "//acho93.github.io/react-portfolio-ac/static/js/main.2e2ff578.js",
+    "static/js/787.392051ef.chunk.js": "//acho93.github.io/react-portfolio-ac/static/js/787.392051ef.chunk.js",
+    "static/media/ashley-pic.jpg": "//acho93.github.io/react-portfolio-ac/static/media/ashley-pic.ca4b7b2d91304172f336.jpg",
+    "static/media/ChoResume.pdf": "//acho93.github.io/react-portfolio-ac/static/media/ChoResume.f3c7e2627ec2062becd0.pdf",
+    "static/media/ashley-photo.jpg": "//acho93.github.io/react-portfolio-ac/static/media/ashley-photo.d2ba98098c6b684e694c.jpg",
+    "static/media/aileron-latin-400-normal.woff": "//acho93.github.io/react-portfolio-ac/static/media/aileron-latin-400-normal.36ddf8acddc786506154.woff",
+    "static/media/aileron-latin-400-normal.woff2": "//acho93.github.io/react-portfolio-ac/static/media/aileron-latin-400-normal.a0168083f435b75f0e4a.woff2",
+    "index.html": "//acho93.github.io/react-portfolio-ac/index.html",
+    "main.9abdef1e.css.map": "//acho93.github.io/react-portfolio-ac/static/css/main.9abdef1e.css.map",
+    "main.2e2ff578.js.map": "//acho93.github.io/react-portfolio-ac/static/js/main.2e2ff578.js.map",
+    "787.392051ef.chunk.js.map": "//acho93.github.io/react-portfolio-ac/static/js/787.392051ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74cf0fb9.css",
-    "static/js/main.74744532.js"
+    "static/css/main.9abdef1e.css",
+    "static/js/main.2e2ff578.js"
   ]
 }
