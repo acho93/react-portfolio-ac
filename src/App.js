@@ -6,7 +6,6 @@ import {
   ChakraProvider,
   Box,
   Grid,
-  theme,
   extendTheme
 } from '@chakra-ui/react';
 
