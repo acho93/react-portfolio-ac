@@ -21,6 +21,7 @@ function App() {
       body: 'Aileron'
     }
   })
+  
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
