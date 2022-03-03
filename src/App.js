@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import "@fontsource/aileron"
 
 import {
@@ -20,20 +20,20 @@ function App() {
       body: 'Aileron'
     }
   })
-  
+
   return (
     <ChakraProvider theme={theme}>
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
-
-          <Routes>
-            <Route path='/' element={<About />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/contact' element={<Contact />} />
-            <Route path='/skills' element={<Skills />} />
-          </Routes>
-
+          <Router>
+            <Routes>
+              <Route path='/' element={<About />} />
+              <Route path='/about' element={<About />} />
+              <Route path='/portfolio' element={<Portfolio />} />
+              <Route path='/contact' element={<Contact />} />
+              <Route path='/skills' element={<Skills />} />
+            </Routes>
+          </Router>
         </Grid>
       </Box>
     </ChakraProvider>
